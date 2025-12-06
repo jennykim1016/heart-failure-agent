@@ -16,6 +16,12 @@ uv sync
 
 (3) For `env_setting.py`, move it to the main folder and fill in the credential details for OpenAI (we have pre-filled our credential in the submission, but you may need to use yours)
 
-(4) For code execution: run `python heart_failure_agent.py`.
+(4) For code execution: run `python heart_failure_agent.py`. Here, you can choose the patient persona among the bottom three.
 
-(5) For plotting, run (5) `python plot_eval_result.py`
+```
+await run_and_evaluate_conversation(patients, get_patient_persona)
+await run_and_evaluate_conversation(patients, get_patient_persona_hard)
+await run_and_evaluate_conversation(patients, get_patient_persona_hardest)
+```
+
+(5) For plotting, run (5) `python plot_eval_result.py`.
