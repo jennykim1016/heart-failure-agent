@@ -12,7 +12,7 @@ source .venv/bin/activate
 uv sync
 ```
 
-(2) Place all these python files to the main folder.
+(2) Place all the python files in this folder to the `genie-worksheets` main folder.
 
 (3) For `env_setting.py`, move it to the main folder and fill in the credential details for OpenAI (we have pre-filled our credential in the submission, but you may need to use yours)
 
