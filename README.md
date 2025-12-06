@@ -2,7 +2,7 @@
 cs224v project
 
 To set up:
-(1) clone the genie-worksheets directory and install the necessary env by following [here](https://github.com/stanford-oval/genie-worksheets?tab=readme-ov-file#installation)
+(1) clone the genie-worksheets directory and install the necessary env by following [here](https://github.com/stanford-oval/genie-worksheets?tab=readme-ov-file#installation). Please make sure none of your conda / virtual environments are activated when proceeding with these lines.
 
 ```
 git clone https://github.com/stanford-oval/genie-worksheets.git
