@@ -24,4 +24,4 @@ await run_and_evaluate_conversation(patients, get_patient_persona_hard)
 await run_and_evaluate_conversation(patients, get_patient_persona_hardest)
 ```
 
-(5) For plotting, run (5) `python plot_eval_result.py`.
+(5) For plotting, run `python plot_eval_result.py`.
