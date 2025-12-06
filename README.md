@@ -6,7 +6,7 @@ To set up:
 
 ```
 git clone https://github.com/stanford-oval/genie-worksheets.git
-cd worksheets
+cd genie-worksheets
 uv venv
 source venv/bin/activate
 uv sync
