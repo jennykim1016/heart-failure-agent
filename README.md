@@ -2,9 +2,20 @@
 cs224v project
 
 To set up:
-(1) clone the genie-worksheets directory [here](https://github.com/stanford-oval/genie-worksheets?tab=readme-ov-file#installation)
-(2) install the necessary env by following [here](https://github.com/stanford-oval/genie-worksheets?tab=readme-ov-file#installation)
-(3) download env_setting.py to the main folder and fill in the credential details for OpenAI
-and (4) place the heart_failure_agent.py file into the same home directory and run the file by running `python heart_failure_agent.py`.
+(1) clone the genie-worksheets directory and install the necessary env by following [here](https://github.com/stanford-oval/genie-worksheets?tab=readme-ov-file#installation)
 
-For plotting, run (5) plot_eval_result.py
+```
+git clone https://github.com/stanford-oval/genie-worksheets.git
+cd worksheets
+uv venv
+source venv/bin/activate
+uv sync
+```
+
+(2) Place all these python files to the main folder.
+
+(3) For `env_setting.py`, move it to the main folder and fill in the credential details for OpenAI (we have pre-filled our credential in the submission, but you may need to use yours)
+
+(4) For code execution: run `python heart_failure_agent.py`.
+
+(5) For plotting, run (5) `python plot_eval_result.py`
